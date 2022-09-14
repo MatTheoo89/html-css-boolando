@@ -27,6 +27,7 @@ li{
 
 }
 a{
+  font-size: .8rem;
   color: white;
   text-decoration: none;
 
@@ -57,7 +58,7 @@ section::before{
 header{
   display: flex;
   align-items: center;
-  /* position: fixed; */
+  position: fixed;
   z-index: 999;
   top: 0;
   left: 0;
@@ -94,12 +95,9 @@ header .container .icons i{
 
 /* MAIN */
 
-main{
-  background-color: aqua;
-  height: 1000px;
-}
-
 main  .container .prodotto img{
+  width: 352px;
+  height: 508px;
   margin-bottom: 10px;
 }
 
@@ -120,12 +118,19 @@ main  .container .prodotto:hover .img-b{
 }
 
 main .container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   padding: 40px 0;
+  margin-top: 70px;
+
 }
 
 main .container .prodotto{
   position: relative;
-  width: 25%;
+  flex-wrap: wrap;
+  margin-right: 20px;
+  margin-bottom: 30px;
 }
 
 main .container .prodotto .box-element-saved{
@@ -174,10 +179,12 @@ main .container .prodotto .box .red{
 }
 
 main .container .prodotto .description span{
+  margin-bottom: 5px;
   font-size: .7rem;
 }
 main .container .prodotto .description h4{
   text-transform: uppercase;
+  margin-bottom: 5px;
 }
 main .container .prodotto .description span.price-sold{
   color: red;
