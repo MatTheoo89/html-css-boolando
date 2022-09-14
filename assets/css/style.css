@@ -99,6 +99,26 @@ main{
   height: 1000px;
 }
 
+main  .container .prodotto img{
+  margin-bottom: 10px;
+}
+
+main  .container .prodotto img.img-a{
+  display: block;
+}
+
+main  .container .prodotto img.img-b{
+  display: none;
+}
+
+main  .container .prodotto:hover .img-a{
+  display: none;
+}
+
+main  .container .prodotto:hover .img-b{
+  display: block;
+}
+
 main .container{
   padding: 40px 0;
 }
@@ -119,6 +139,53 @@ main .container .prodotto .box-element-saved{
   height: 30px;
   background-color: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+}
+
+main .container .prodotto{
+  position: relative;
+}
+
+main .container .prodotto .box-element-saved{
+  background-color: #fff;
+  padding: 5px 10px;
+}
+
+main .container .prodotto .box-element-saved span:hover{
+  color: red;
+}
+
+main .container .prodotto .box{
+  position: absolute;
+  bottom: 90px;
+  left: 0;
+}
+
+main .container .prodotto .box span{
+  color: #fff;
+  font-weight: bold;
+  padding: 2px 5px;
+}
+
+main .container .prodotto .box .green{
+  background-color: #008000;
+}
+main .container .prodotto .box .red{
+  background-color: red;
+}
+
+main .container .prodotto .description span{
+  font-size: .7rem;
+}
+main .container .prodotto .description h4{
+  text-transform: uppercase;
+}
+main .container .prodotto .description span.price-sold{
+  color: red;
+  font-weight: bold;
+}
+
+main .container .prodotto .description span.price{
+  text-decoration: line-through;
 }
 
 /* FOOTER */
