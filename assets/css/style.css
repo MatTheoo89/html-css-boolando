@@ -18,6 +18,19 @@ img{
 	max-width: 100%;
 }
 
+ul{
+  list-style: none;
+}
+
+li{
+  margin: 0 8px;
+
+}
+a{
+  text-decoration: none;
+
+}
+
 .container{
   width: 80%;
   max-width: 1200px;
@@ -63,18 +76,12 @@ header .container{
 
 header .menu ul{
   display: flex;
-  list-style: none;
   padding-top: 5px;
-}
-
-header .menu ul li{
-  margin: 0 8px;
 }
 
 header .menu ul li a{
   color: white;
   font-weight: bold;
-  text-decoration: none;
 }
 
 header .container img.logo{
@@ -83,7 +90,6 @@ header .container img.logo{
 
 header .container .icons i{
   margin-right: 10px;
-
 }
 
 
@@ -98,6 +104,24 @@ main{
 
 footer{
   height: 70px;
+  padding: 35px 0 80px;
   color: white;
   background-color: black;
+}
+footer h4, h6{
+  margin-bottom: 10px;
+}
+
+footer .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container .menu ul{
+  display: flex;
+}
+
+footer .container .social .icons i{
+  margin-right: 10px;
+
 }
