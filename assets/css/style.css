@@ -179,6 +179,7 @@ main .container .prodotto .box .red{
 }
 
 main .container .prodotto .description span{
+  text-transform: capitalize;
   margin-bottom: 5px;
   font-size: .7rem;
 }
