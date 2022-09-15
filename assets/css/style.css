@@ -62,9 +62,8 @@ header{
   z-index: 999;
   top: 0;
   left: 0;
-  height: 50px;
+  height: 70px;
   width: 100%;
-  padding: 5px 0;
   background-color: #FF6900;
   box-shadow: 0 3px 12px rgba(0, 0, 0, .3);
 }
@@ -85,7 +84,7 @@ header .menu ul li a{
 }
 
 header .container img.logo{
-  width: 10%;
+  width: 140px;
 }
 
 header .container .icons i{
@@ -96,8 +95,7 @@ header .container .icons i{
 /* MAIN */
 
 main  .container .prodotto img{
-  width: 352px;
-  height: 508px;
+  min-width: 300px;
   margin-bottom: 10px;
 }
 
@@ -127,6 +125,7 @@ main .container{
 }
 
 main .container .prodotto{
+  width: 31%;
   position: relative;
   flex-wrap: wrap;
   margin-right: 20px;
